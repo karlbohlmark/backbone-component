@@ -1,0 +1,20 @@
+{
+  "name": "backbone",
+  "repo": "karlbohlmark/backbone-component",
+  "description": "backbone",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "karlbohlmark/backbone-collection": "*",
+    "karlbohlmark/backbone-model": "*",
+    "karlbohlmark/backbone-sync": "*",
+    "timoxley/backbone-view": "*",
+    "spini/backbone-history": "*",
+    "matthewmueller/events": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<meta charset="utf8">
+<script src="build/build.js"></script>
+<div id="stuff"></div>
+
+
+
+<script>
+	var q = document.querySelector.bind(document);
+	var Backbone = require('backbone');
+
+
+	var StuffView = Backbone.View.extend({
+		initialize: function () {
+			console.log('intialized stuffview');
+		}
+	})
+
+	var stuff = new StuffView();
+
+	q('#stuff').appendChild(stuff.el);
+
+
+</script>
